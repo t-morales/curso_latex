@@ -1,0 +1,26 @@
+ \documentclass[a4paper,12pt]{article}
+ \usepackage[latin1]{inputenc}
+ \usepackage[T1]{fontenc}
+ \usepackage[spanish]{babel}
+ \usepackage{hyperref}
+
+ \begin{document}
+
+  \begin{itemize}
+    \item[a)] Primer nivel de \texttt{itemize}
+        \begin{enumerate}
+            \item Primer nivel de \texttt{enumerate}
+                \begin{itemize}
+                    \item Segundo nivel de \texttt{itemize}
+                        \begin{enumerate}
+                            \item Segundo nivel de \texttt{enumerate}
+                        \end{enumerate}
+                    \item Volvemos al tercer nivel global.
+                \end{itemize}
+            \item Estamos en el segundo nivel global.
+        \end{enumerate}
+    \item[b)] Primer nivel global.
+ \end{itemize}
+
+
+ \end{document}

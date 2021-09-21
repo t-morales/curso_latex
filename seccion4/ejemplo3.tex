@@ -1,0 +1,34 @@
+ \documentclass[a4paper,12pt]{article}
+ \usepackage[latin1]{inputenc}
+ \usepackage[T1]{fontenc}
+ \usepackage[spanish]{babel}
+ \usepackage[pdftex]{graphicx}
+ \usepackage{wrapfig}
+
+
+\begin{document}
+\begin{wrapfigure}{r}{4.0cm}
+\includegraphics[width=4.0cm]{coche}
+\caption[TextoLeyendaIndice]{Leyenda} \label{etiqueta}
+\end{wrapfigure}
+Al incluir una figura con el comando wrapfigure se deben tener
+algunas cosas en cuenta: En la definición \{r\} significa que el
+recuadro se introducirá a la derecha del texto, también se puede
+utilizar \{l\} para que sea a la izquierda. El entorno se debe
+iniciar entre párrafos, es decir, es problemático escribir un
+entorno wrapfigure en medio de un párrafo. La figura será
+introducida justo al lado del párrafo siguiente de la definición
+del entorno.
+
+\begin{wrapfigure}{l}{2.0cm}
+\includegraphics[width=2.0cm]{coche}
+\end{wrapfigure}
+Al incluir una figura con el comando wrapfigure se deben tener
+algunas cosas en cuenta: En la definición \{r\} significa que el
+recuadro se introducirá a la derecha del texto, también se puede
+utilizar \{l\} para que sea a la izquierda. El entorno se debe
+iniciar entre párrafos, es decir, es problemático escribir un
+entorno wrapfigure en medio de un párrafo. La figura será
+introducida justo al lado del párrafo siguiente de la definición
+del entorno.
+ \end{document}

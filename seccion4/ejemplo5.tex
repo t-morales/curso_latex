@@ -1,0 +1,32 @@
+ \documentclass[a4paper,12pt]{article}
+ \usepackage[latin1]{inputenc}
+ \usepackage[T1]{fontenc}
+ \usepackage[spanish]{babel}
+ \usepackage{amsmath,amssymb}
+
+%% Entornos de tipo teorema
+ \newtheorem{teorema}{Teorema}
+ \newtheorem{lema}{Lema}[section]
+
+%% Título de las demostraciones
+ \renewcommand*{\proofname}{Demostración}
+
+ \begin{document}
+
+ \section{Ejemplos de entorno teorema}
+
+ \begin{teorema}
+ Aquí tenemos un teorema\dots
+ \end{teorema}
+ \begin{teorema}
+ Y aquí otro.
+ \end{teorema}
+ \begin{lema}[Lema de fulanito]
+ Esto es una lema
+ \end{lema}
+
+ \begin{proof}
+ Prueba del resultado\dots
+ \end{proof}
+
+ \end{document}

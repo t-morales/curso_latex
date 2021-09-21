@@ -1,0 +1,28 @@
+ \documentclass[a4paper,12pt]{article}
+ \usepackage[latin1]{inputenc}
+ \usepackage[T1]{fontenc}
+ \usepackage[spanish]{babel}
+ \usepackage[pdftex]{graphicx}
+ %\DeclareGraphicsExtensions{.png,.pdf,.jpg,.gif}
+
+ \begin{document}
+
+
+
+\begin{center}
+
+Este texto \rotatebox{60}{está rotado}.
+ Y este texto además está rotado, coloreado y
+ \rotatebox{120}{\fbox{{\small{\textcolor{green}{
+ metido en una caja}}}}}
+ 
+Aquí tenemos un texto \scalebox{3}[1]{reescalado}.
+
+Otro ejemplo de texto \scalebox{-1}[1]{lo tenemos aquí}.
+
+Aquí tenemos otro \resizebox{3cm}{1cm}{ejemplo}.
+
+Y otro ejemplo \resizebox{1cm}{!}{\textcolor{blue}{más}}.
+
+
+\end{document}

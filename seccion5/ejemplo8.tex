@@ -1,0 +1,51 @@
+ \documentclass[a4paper,12pt]{article}
+ \usepackage[latin1]{inputenc}
+ \usepackage[T1]{fontenc}
+ \usepackage[spanish]{babel}
+ 
+\begin{document}
+
+Ejemplo 1:
+
+\begin{tabular}{|l|c|c|r|}
+ \hline
+  {\bf Nombre} & {\bf Apellidos} & {\bf DNI} & {\bf Calificación} \\
+  \hline \hline
+  Juan & López & 43434322L & 5.3 \\
+  Emilio & Pérez & 45989845K & 7.2 \\
+  Gema & Gutiérrez & 21388383A & 8.1 \\
+  \hline
+\end{tabular}
+
+Ejemplo 2: 
+
+\begin{tabular}{|l|c|c|r|}
+ \hline
+  {\bf Nombre}  & {\bf Apellidos} & {\bf DNI} & {\bf Calificación} \\
+  \hline
+  Juan & López & 43434322L & 5.3 \\
+  Emilio & Pérez & 45989845K & 7.2 \\
+  Gema & Gutiérez & \multicolumn{2}{l}{ } \\
+  \hline
+ \end{tabular}
+ 
+Ejemplo 3:
+
+ \begin{tabular}{|@{\bf Capítulo: }r@{\qquad Temas: }c@{ - }c|}
+ \hline
+  1 & 1 & 5 \\
+  2 & 6 & 9 \\
+  3 & 10 & 14 \\
+  \hline
+ \end{tabular}
+ 
+Ejemplo 4:
+
+ \begin{tabular}{|p{3cm}|p{1cm}|}
+ \hline
+   Insertamos este párrafo dentro de esta columna de la tabla &
+   Y en esta columna insertamos este otro párrafo\\
+  \hline
+ \end{tabular}
+
+\end{document}
